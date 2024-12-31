@@ -10,3 +10,10 @@ faiss-cpu==1.8.0.post1
 bs4==0.0.2
 unstructured==0.15.0
 langchain_ollama
+phidata
+yfinance
+packaging
+duckduckgo-search
+fastapi
+uvicorn
+groq
