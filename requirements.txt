@@ -17,3 +17,5 @@ duckduckgo-search
 fastapi
 uvicorn
 groq
+langgraph
+langchainhub
