@@ -46,3 +46,19 @@ video_file = st.file_uploader(
     "Upload a video file", type=['mp4', 'mov', 'avi'], help="Upload a video for AI analysis."
 )
 
+if video_file:
+    with tempfile.NamedTemporaryFile(delete=False, suffix='.mp4') as temp_video:
+        temp_video.write(video_file.read())
+        video_path=temp_video.name
+
+    st.video(video_path, format="video/mp4", start_time=0)
+
+    user_query = st.text_area(
+        "What insights are you seeking from the video?",
+        placeholder="Ask anything about the video content. The AI agent will analyze and gather additional context if needed.",
+        help="Provide specific question or insights you want from the video."
+    )
+
+    
+else:
+    st.info("upload a video file to begin analysis.")
