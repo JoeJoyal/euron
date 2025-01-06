@@ -98,4 +98,14 @@ if video_file:
 else:
     st.info("upload a video file to begin analysis.")
 
-
+# Customize text area height
+st.markdown(
+    """
+    <style>
+    .stTextArea textarea{
+        height: 100px;
+    }
+    </style>
+    """,
+    unsafe_allow_html=True 
+)
