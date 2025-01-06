@@ -18,3 +18,13 @@ import os
 API_KEY = os.getenv("GOOGLE_API_KEY")
 if API_KEY:
     genai.configure(api_key=API_KEY)
+
+# Page configuration
+st.set_page_config(
+    page_title="Multimodal AI Agent - Video Summarizer",
+    page_icon="🎥",
+    layout="wide"
+)
+
+st.title("Phidata Video AI Summarizer Agent 🎥🎤🖬")
+st.header("Powered by Gemini 2.0 Flash Exp")
