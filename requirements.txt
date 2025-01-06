@@ -19,3 +19,5 @@ uvicorn
 groq
 langgraph
 langchainhub
+streamlit
+google-generativeai
