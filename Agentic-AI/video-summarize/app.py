@@ -71,7 +71,16 @@ if video_file:
                         time.sleep()
                         process_video = get_file(process_video.name)
 
-                    
+                    # Prompt generation for analysis
+                    analysis_prompt = (
+                        f"""
+                        Analyze the uploaded video for content and context.
+                        Respond to the following query using video insights and supplementary web research:
+                        {user_query}
+
+                        Provide a detailed, user-friendly, and actionable response.
+                        """
+                    )
             except Exception as error:
                 pass
 else:
