@@ -68,7 +68,7 @@ if video_file:
                     # Upload and process video file
                     process_video = upload_file(video_path)
                     while process_video.state.name == "PROCESSING":
-                        time.sleep()
+                        time.sleep(1)
                         process_video = get_file(process_video.name)
 
                     # Prompt generation for analysis
