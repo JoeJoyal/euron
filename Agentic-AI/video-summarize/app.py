@@ -59,6 +59,20 @@ if video_file:
         help="Provide specific question or insights you want from the video."
     )
 
-    
+    if st.button("🔍 Analyze Video", key="analyze_video_button"):
+        if not user_query:
+            st.warning("Please enter a question or insigst to analyse the video.")
+        else:
+            try:
+                with st.spinner("Processing video and gathering insights..."):
+                    # Upload and process video file
+                    process_video = upload_file(video_path)
+                    while process_video.state.name == "PROCESSING":
+                        time.sleep()
+                        process_video = get_file(process_video.name)
+
+                    
+            except Exception as error:
+                pass
 else:
     st.info("upload a video file to begin analysis.")
