@@ -81,7 +81,21 @@ if video_file:
                         Provide a detailed, user-friendly, and actionable response.
                         """
                     )
+
+                    # AI agent processing
+                    response = multimodal_Agent.run(analysis_prompt, videos=[process_video])
+
+                # Display the result
+                st.subheader("Analysis Result")
+                st.markdown(response.content)
+
             except Exception as error:
-                pass
+                st.error(f"An error occurred during analysis: {error}")
+
+            finally:
+                # Clean up temporary video file
+                Path(video_path).unlink(missing_ok=True)
 else:
     st.info("upload a video file to begin analysis.")
+
+
