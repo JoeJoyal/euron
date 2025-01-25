@@ -22,3 +22,4 @@ langchainhub
 streamlit
 google-generativeai
 langchain-huggingface
+chromadb
