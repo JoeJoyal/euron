@@ -21,3 +21,4 @@ langgraph
 langchainhub
 streamlit
 google-generativeai
+langchain-huggingface
