@@ -2,4 +2,5 @@ crewai==0.22.5
 crewai[tools]
 langchain_openai
 langchain_community
+langchain_groq
 python-dotenv
