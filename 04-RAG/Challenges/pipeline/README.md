@@ -26,7 +26,7 @@
 
     - Use JSON: `df.to_json('data.json')`
 
-###<font color="green">3. Read & Clean</font>
+### <font color="green">3. Read & Clean</font>
 
 **Goal:** Create a loader for each format, clean the text.
 
@@ -44,7 +44,7 @@
     - Chunk text: Break texts into chunks of 50 tokens `nltk`S `word_tokenize`.
     - Store processed data with `id`, `chunk_id`, `lang`, `text`.
 
-###<font color="green">4. Pipeline Script</font>
+### <font color="green">4. Pipeline Script</font>
 
 **Goal:** Python script which: loads -> cleans -> chunks -> saves clean data
 
@@ -75,7 +75,7 @@
     - `dump.faiss` is FAISS Index file
     - `metadata.jsonl` contains one record per line, matching the vector order in FAISS.
 
-###<font color="green">5. Compare cosine similarity vs inner product in FAISS</font>
+### <font color="green">5. Compare cosine similarity vs inner product in FAISS</font>
 
 - How it works:
     - Loads FAISS Index and metadata.
@@ -120,7 +120,7 @@
 ![04-FAQ](./results/04-FAQ.png)
 
 
-###<font color="green">To build a `plagiarism checker` : store essay in FAISS. For a new essay , check if similarity > threshold with existing ones.</font>
+### <font color="green">To build a `plagiarism checker` : store essay in FAISS. For a new essay , check if similarity > threshold with existing ones.</font>
 
 **Output**
 ![05-plagiarism_checker_result_001](./results/05-plagiarism_checker_result_001.png)
