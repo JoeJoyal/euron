@@ -145,12 +145,14 @@
 ### <font color="green">To store embeddings of `Python code snippets` and retrieve code by natural language quries like binary search function.</font>
 
 **Output**
+
 ![09-code-snippet](./results/09-code-snippet.png)
 
 
 ### <font color="green">To build a cross model search: store both image embeddings and text captions, then allow search by either text or image.</font>
 
 **Output**
+
 ![10-cross-modal-search](./results/10-cross-modal-search.png)
 ![10-cross-modal-search-01](./results/10-cross-modal-search-01.png)
 ![10-cross-model-search-02](./results/10-cross-modal-search-02.png)
