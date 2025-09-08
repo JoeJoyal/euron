@@ -1,0 +1,15 @@
+pandas
+numpy
+nltk
+faiss-cpu
+tqdm
+docx
+PyPDF2
+langdetect
+chardet
+qdrant-client
+matplotlib
+scikit-learn
+googletrans=4.0.0rc1
+sentence_transformers
+langchain_community
