@@ -10,7 +10,7 @@
 
 - Tip: You can use python or excel to prepare your data.
 
-###<font color="green">2. Save in Formats</font>
+<font color="green">2. Save in Formats</font>
 
 **Goal:** The same data should be saved as CSV, TXT, DOCX, PDF, and JSON.
 
