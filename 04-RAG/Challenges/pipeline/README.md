@@ -125,12 +125,12 @@
 **Output**
 ![05-plagiarism_checker_result_001](./results/05-plagiarism_checker_result_001.png)
 
-###<font color="green">To build the `news recommendation` prototype: store news articles, query for</font> **AI breakthroughts** <font color="green"> and compare nearest result.</font>
+### <font color="green">To build the `news recommendation` prototype: store news articles, query for</font> **AI breakthroughts** <font color="green"> and compare nearest result.</font>
 
 **Output**
 ![06-news_recommendation](./results/06-news-recommendation.png)
 
-###<font color="green">To build the `job recommendation` : store resume embeddings and job descriptions. Write a function that returna the top-3 matching resumes for each job description.</font>
+### <font color="green">To build the `job recommendation` : store resume embeddings and job descriptions. Write a function that returna the top-3 matching resumes for each job description.</font>
 
 **Output**
 ![07-Job-recommendation](./results/07-Job-recommendation.png)
@@ -142,7 +142,7 @@
 ![08-multilingual-query-translation](./results/08-multilingual-query-translation.png)
 
 
-###<font color="green">To store embeddings of `Python code snippets` and retrieve code by natural language quries like binary search function.</font>
+### <font color="green">To store embeddings of `Python code snippets` and retrieve code by natural language quries like binary search function.</font>
 
 **Output**
 
@@ -152,11 +152,8 @@
 ### <font color="green">To build a cross model search: store both image embeddings and text captions, then allow search by either text or image.</font>
 
 **Output**
-
 ![10-cross-modal-search](./results/10-cross-modal-search.png)
-
 ![10-cross-modal-search-01](./results/10-cross-modal-search-01.png)
-
 ![10-cross-model-search-02](./results/10-cross-modal-search-02.png)
 
 
