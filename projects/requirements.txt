@@ -1,7 +1,0 @@
-easyocr
-streamlit
-pandas
-euriai
-langgraph
-wand
-pillow
