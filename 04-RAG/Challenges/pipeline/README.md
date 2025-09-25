@@ -114,7 +114,7 @@
 ![PCA-IP-TSNE](./results/PCA-IP-TSNE.png)
 
 
-### <font color="green">To build the small FAQ Chatbot : store in Qdrant embed queries and return the closest FAQ answer</font>
+<font color="green">To build the small FAQ Chatbot : store in Qdrant embed queries and return the closest FAQ answer</font>
 
 **Output**
 ![04-FAQ](./results/04-FAQ.png)
@@ -149,19 +149,10 @@
 ![09-code-snippet](./results/09-code-snippet.png)
 
 
-#### <font color="green">To build a cross model search: store both image embeddings and text captions, then allow search by either text or image.</font>
+### <font color="green">To build a cross model search: store both image embeddings and text captions, then allow search by either text or image.</font>
 
 **Output**
 
 ![10-cross-modal-search](./results/10-cross-modal-search.png)
-
 ![10-cross-modal-search-01](./results/10-cross-modal-search-01.png)
-
 ![10-cross-model-search-02](./results/10-cross-modal-search-02.png)
-
-
-
-
-
-
-
