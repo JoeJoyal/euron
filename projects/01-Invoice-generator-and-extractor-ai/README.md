@@ -77,7 +77,11 @@ streamlit run app.py
 project-folder/
 │
 ├─ app.py                  # Streamlit app
-├─ pipeline.py             # All OCR/DB logic (if modularized)
+├─ src/
+├──├─__init__.pu
+├──├─pipeline.py
+├──├─db.py
+├──├─config.py             # All OCR/DB logic (if modularized)
 ├─ invoicesDB.sqlite       # Generated DB file
 ├─ invoice/                # Place invoices here for batch mode
 ├─ requirements.txt
