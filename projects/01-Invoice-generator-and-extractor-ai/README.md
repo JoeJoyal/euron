@@ -19,7 +19,7 @@ A Streamlit-powered, no-code, AI-assisted pipeline to extract key information fr
 ### 1. **Clone or Download This Repository**
 
 ```sh
-git clone 
+git clone https://github.com/JoeJoyal/euron.git
 cd 
 ```
 
