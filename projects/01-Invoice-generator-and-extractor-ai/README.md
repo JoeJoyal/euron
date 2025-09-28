@@ -20,7 +20,7 @@ A Streamlit-powered, no-code, AI-assisted pipeline to extract key information fr
 
 ```sh
 git clone https://github.com/JoeJoyal/euron.git
-cd projects/01-Invoice-generator-and-extractor-ai/README.md
+cd projects/01-Invoice-generator-and-extractor-ai
 ```
 
 ### <font color=green>2. Install Python Dependencies</font>
